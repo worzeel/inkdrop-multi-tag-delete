@@ -1,6 +1,6 @@
 {
   "name": "multi-tag-delete",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Bulk delete multiple tags at once, including unused/orphan tags",
   "repository": "https://github.com/worzeel/inkdrop-multi-tag-delete",
   "license": "MIT",
