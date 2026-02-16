@@ -35,7 +35,7 @@ From the dialog:
 ```bash
 git clone https://github.com/worzeel/inkdrop-multi-tag-delete.git
 cd inkdrop-multi-tag-delete
-ipm link --dev
+ln -s ~/dev/inkdrop-multi-tag-delete ~/location/of/inkdrop/packages/inkdrop-multi-tag-delete
 ```
 
 Enable **Developer Mode** in Inkdrop settings, then reload (`Alt+Cmd+Shift+R` on macOS).
