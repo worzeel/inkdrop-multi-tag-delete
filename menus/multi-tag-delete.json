@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "Multi Tag Delete",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "multi-tag-delete:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
