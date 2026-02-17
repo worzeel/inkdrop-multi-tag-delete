@@ -61,4 +61,41 @@
     opacity: 0.8;
     font-size: 0.9em;
   }
+
+  position: relative;
+
+  .confirm-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    z-index: 10;
+
+    .confirm-content {
+      text-align: center;
+      padding: 2em;
+
+      .confirm-message {
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+      }
+
+      .confirm-detail {
+        opacity: 0.7;
+        margin-bottom: 1.5em;
+      }
+
+      .confirm-actions {
+        display: flex;
+        gap: 0.5em;
+        justify-content: center;
+      }
+    }
+  }
 }

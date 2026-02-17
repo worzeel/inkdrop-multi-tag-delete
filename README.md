@@ -24,11 +24,15 @@ Open the dialog via:
 - **Keyboard**: `Ctrl+Alt+Shift+D`
 - **Command palette**: `multi-tag-delete:toggle`
 
+![Main dialog](images/main_dialog.png)
+
 From the dialog:
 
 1. Select tags manually using checkboxes, or click **Select Unused** to auto-select orphan tags
 2. Click **Delete Selected**
 3. Confirm the deletion in the prompt
+
+![Confirmation](images/deletion_confirm.png)
 
 ## Development
 
